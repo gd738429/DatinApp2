@@ -16,7 +16,7 @@ namespace DatingApp.Controllers
     {
       _db = db;
     }
-
+    //test
     [HttpGet]
     public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
     {
